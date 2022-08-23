@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Yemekler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+    .div2 {
+      color: slategrey;
+    }
+
+    .h3 {
+      font-family: 'Mukta', sans-serif;
+      font-size: 24px;
+    }
+
+    .p {
+      text-align: start;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">1 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">İngilizce kelime bilgisinde, en önemli konulardan bir tanesi de günlük hayatın içinde yer edinmiş
+          temel konulardan ‘yemekler’.<br><br>
+          Belli başlı İngilizce Yemekler ve Türkçeleri nelerdir? <br>
+          İngilizce yemek söylerken,sipariş verirken nasıl söylenir?<br><br>
+          Bunların dışında az yemek, ya da fazla porsiyon söylemek için, yemek esnasındaki konuşmalarda kullanmanız
+          gereken belli başlı kalıplar içinde hangi ifadeleri kullanmanız gerekir,
+          biliyor musunuz?<br><br>
+          İşte İngilizce yemekler dosyamızda, sizler için hem günlük kullanımda, hem özel yemeklerde, davetlerde, hem de
+          lokantalarda, ya da aile yemeklerinde mutlaka bilinmesi gereken İngilizce yemek kültürü kalıplarını
+          öğreneceğiz.<br><br>
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">2 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">YEMEK TERİMLERİ<br><br>
+          Bake: fırında pişirmek, fırına vermek<br>
+          Sift: elemek, kalburdan ya da elekten geçirmek<br>
+          Knead: yoğurmak<br>
+          Beat: dövmek<br>
+          Barbeque: ızgara yapmak<br>
+          Sauté / stir: karıştırmak<br>
+          Mince: kıymak<br>
+          Broil: kavurmak<br>
+          Shallow fry (a small amount of oil is needed): az yağda kızartmak<br>
+          Deep fry (the food is immersed in oil): kızgın yağda kızartmak<br>
+          Scramble: karıştırmak<br>
+          Add: ilave etmek<br>
+          Measure: ölçmek<br>
+          Roast: fırınlamak, fırında kızartmak<br>
+          Season: baharat eklemek
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">3 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">İNGİLİZCE ÇORBA İSİMLERİ<br><br>
+          Mercimek Çorbası: Lentil soup<br>
+          Domates çorbası: Tomato soup<br>
+          Tavuk suyu: Chicken broth<br>
+          İşkembe çorbası: Tripe soup<br>
+          Yayla çorbası: Yoghurt cream of mutton soup<br>
+          Tarhana çorbası: Cream of tarhana<br>
+          Ezogelin çorbası: Cream of tomato with rice and wheat
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">4 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">İNGİLİZCE İÇECEK İSİMLERİ<br><br>
+          Su: Water<br>
+          Tea: Çay<br>
+          Coffee: Kahve<br>
+          Lemonade: Limonata<br>
+          Beer: Bira<br>
+          Wine: Şarap…
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">5 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">
+          İNGİLİZCE BAHARAT İSİMLERİ<br><br>
+          Thyme: Kekik<br>
+          Salt: Tuz<br>
+          Rosemary: Biber<br>
+          Cilantro: Kişniş
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">6 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">1- Tastes great! (Tadı bir harika!)<br><br>
+          Tam şuanda leziz bir şey mi yiyorsun? Bunu ifade etmek için bu sözleri kullan.<br><br>
+
+          I’m so glad I ordered this pizza—it tastes great!<br>
+          Pizza siparişi verdiğim için çok memnunum—tadı bir harika!
+          <br><br><br>
+          2- Really good! (Gerçekten iyi!)<br><br>
+          İşte leziz yerine söyleyebileceğin bir şey daha.<br><br>
+
+          Have you tried the chocolate cake? It’s really good!<br>
+          Çikolatalı pastayı denedin mi? Gerçekten iyi!
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">7 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">3- Wow, [this food] is amazing! (Vay canına, [bu yemek] inanılmaz!)<br><br>
+          Eğer bir şey beklediğinden daha lezzetliyse, şaşkınlığını dile getirmek için wow sözcüğünü
+          kullanabilirsin.<br><br>
+          Bir şeyin tadının inanılmaz (amazing) olduğunu söylersen, bunun tadının harika (great) ya da gerçekten iyiden
+          (really good) de iyi olduğunu söylemiş olursun.<br><br>
+
+          Wow, this pasta salad is amazing!<br>
+          Vay canına, bu makarna salatası inanılmaz!<br><br><br>
+
+          4- Yummy (Nefis)<br><br>
+          Bu da tadının iyi olduğunu söylemenin gayriresmi bir yoludur.<br><br>
+          Eğer bir şeyin lezzetli olduğunu düşünüyorsan sadece “Yummy!” demen yeterli ya da bunu bir cümle haline de
+          getirebilirsin.<br><br>
+
+          This cheesecake is really yummy. I’m going for another slice.<br>
+          Bu cheesecake gerçekten nefis. Bir dilim daha alacağım.</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">8 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">
+          5- Flavorful (Çeşnili)<br><br>
+          Çeşni katılmış veya kokusu ve tadı ağız sulandıran yiyecekleri tanımlamak için harika bir sıfattır.<br><br>
+
+          I love how flavorful this soup is with all the fresh herbs and vegetables in it.<br>
+          İçindeki tüm taze bitkiler ve sebzelerle bu çorbanın bu kadar çeşnili olmasına bayıldım.<br><br><br>
+
+          6. Mouth-watering (Ağız sulandırıcı)<br><br>
+          Son derece lezzetli ve çeşnili olduğu için gerçek anlamda ağzını sulandıran bir şeyi tasvir etmek için
+          mükemmel sıfattır.<br><br>
+
+          His mom makes such mouth-watering cakes that I just can’t wait to go over to his house tonight.<br>
+          Annesi o kadar ağız sulandırıcı pastalar yapıyor ki bu gece onlara gitmeyi iple çekiyorum.
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">9 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">7- This [food] is too [flavor] for me/for my taste. (Bu [yemek] damak tadıma göre çok [tuzlu, acı,
+          vb.].)<br><br>
+          Aşçıyı suçlamaksızın yemeği beğenmediğini ifade etmenin kibar bir yoludur. Bu yemek sana göre
+          değildir.<br><br>
+
+          Ama önce aşçıya bir iltifatta bulunman daha iyi olur!<br><br>
+
+          This cake is so moist! It’s just too sweet for my taste.<br>
+          Pasta ne kadar da ıslak! Ama damak tadıma göre çok tatlı.<br><br><br>
+
+          8- It could use a little more/less… (… biraz daha fazla/az olsa daha iyi olurdu)<br><br>
+          Çeşnisi farklı olsaydı bir yemeği daha fazla seveceğini ifade etmek için bu ifadeyi kullan.<br><br>
+
+          This chicken is too spicy. It could use a little less chili sauce.<br>
+          Bu tavuk çok acı, acı sos biraz daha az olsa daha iyi olurdu.</p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">10 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">YEMEKLER</h3>
+        <p class="p">
+          9- This tastes different. I think I prefer [something else]. (Bunun farklı bir tadı var. Sanırım [başka bir
+          şey] tercih ederdim.)<br><br>
+          Eğer bir şeyin tadı senin için yeniyse ya da alışkın olmadığın bir tat ise kibar bir şekilde tercih ettiğin ya
+          da daha sevdiğin bir yemeği isteyebilirsin.<br><br>
+
+          This tiramisu tastes different. I think I prefer the chocolate cake.<br>
+          Bu tiramisunun farklı bir tadı var. Sanırım çikolatalı pastayı tercih ederdim.<br><br><br>
+          10- Home-cooked meal (Ev yemeği)<br><br>
+          Ev yemeği, pek çoğumuzun okuldan ya da işten döndüğü zaman evde kendisini beklemesini isteyeceği yemektir.<br><br>
+          Bu evde hazırlanan ve evde yenilen yeni pişmiş bir yemektir.<br><br>
+
+          Whenever I get home early from work, I make myself a nice home-cooked meal.<br>
+          İşten eve ne zaman erken dönsem kendime iyi bir ev yemeği yaparım.
+        </p>
+      </div>
+    </div>
+
+    <!--<a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>-->
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+  </div>
+  <br><br><br><br>
+  <div align="center">
+    <a href="anasayfa.html" class="div2"><i
+        class="fa-solid fa-angles-left fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="giyim.html" class="div2"><i class="fa-solid fa-check-double fa-3x"></i></a>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>

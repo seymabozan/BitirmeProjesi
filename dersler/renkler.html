@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Renkler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+    .div2 {
+      color: slategrey;
+    }
+
+    .h3 {
+      font-family: 'Mukta', sans-serif;
+      font-size: 24px;
+    }
+
+    .p {
+      text-align: start;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">1 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">Herhangi bir dil öğreniminde başlangıç seviyesinde öğrenilen şeylerden biri de renklerdir.<br><br>
+          Günlük konuşmalarımızda tahmin edilenden daha fazla kullandığımız renklerin İngilizce karşılıklarını sizler
+          için
+          derledik.<br><br>
+          Yazı içerisinde bulabileceğiniz bazı anahtar noktalar öğreneceğimiz konular şu şekilde;<br><br>
+          1- İngilizce Renkler ve Türkçeleri<br>
+          2- İngilizce Renkler ve Okunuşları / Telaffuzları<br>
+          3- İngilizce Renkler Cümle Örnekleri
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">2 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">1- İNGİLİZCE RENKLER VE TÜRKÇELERİ<br><br>
+          Black: Siyah<br>
+          White: Beyaz<br>
+          Pink: Pembe<br>
+          Red: Kırmızı<br>
+          Yellow: Sarı<br>
+          Green: Yeşil<br>
+          Blue: Mavi<br>
+          Navy Blue: Lacivert<br>
+          Purple: Mor<br>
+          Brown: Kahverengi<br>
+          Gray / Grey: Gri<br>
+          Orange: Turuncu<br>
+          Gold: Altın rengi<br>
+          Silver: Gümüş rengi<br>
+          Turquoise: Turkuaz <br>
+          Lilac: Lila<br>
+          Violet: Menekşe<br>
+          Beige: Bej
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">3 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">2- İNGİLİZCE RENKLERİN CÜMLE İÇİNDE KULLANIMI<br><br>
+          White : Beyaz<br>
+          I really liked that white dress though. Should I buy it? (O beyaz elbiseyi pek beğendim ama. Sence satın
+          almalı mıyım?)<br><br>
+          There will be no white flag above my door. (Kapımda bir beyaz bayrak olmayacak. ) / Dido – White Flag şarkı
+          sözlerinden biri.<br><br>
+          Black : Siyah<br>
+          He and I are as different as black and white. (Onunla ben, siyahla beyaz kadar farklıyız.)<br><br>
+          I see a red door and I want it painted black. (Kırmızı bir kapı gördüm ve onu siyaha boyadım.)<br><br>
+          Pink: Pembe<br>
+          Can I borrow your pink pen? I really like that one. (Pembe kalemini ödünç alabilir miyim? Onu gerçekten pek
+          seviyorum.)<br><br>
+          Pink it is my new obsession. (Pembe, bu benim yeni takıntım.)
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">4 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">
+          Red: Kırmızı<br>
+          I think he will cry when he sees you in that red dress. You will look that beautiful. (Bence o seni o kırmızı
+          elbisenin içerisinde görünce ağlayacak. O kadar güzel gözükeceksin yani.)<br><br>
+          I have red spots all over my body and it worries me. (Vücudumun her yerinde kırmızı noktalar var ve bu beni
+          endişelendiriyor.)<br><br>
+          Yellow: Sarı<br>
+          Bananas have two colors, yellow and if they are not ripe enough, they are green. (Muzun iki rengi vardır,
+          sarı, ve eğer henüz yeterince olgunlaşmamışlarsa, yeşil.)<br><br>
+          Look at the stars , look how they shine for you. And everything you do, yeah, they were all yellow.
+          (Yıldızlara bak, yıldızların senin için nasıl parladıklarına bak. Ve senin tüm yaptıkların, evet , hepsi
+          sarıydı.)<br><br>
+          Green: Yeşil<br>
+          I like people with green eyes. I can say that they are my type. (Yeşil gözlü insanları severim, benim tipim
+          olduklarını söyleyebilirim.)<br><br>
+          You should eat more clean and green to be healthy. (Sağlıklı olmak için daha temiz ve yeşil şeyler yemelisin.)
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">5 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">
+          Blue: Mavi<br>
+          It really comforts me to look at the blue sky. (Mavi gökyüzüne bakmak beni gerçekten rahatlatır.)<br><br>
+          No one knows what it is like, to be the bad man, to be the sad man behind blue eyes. (Kimse mavi gözlerin
+          ardında kötü bir adam, üzgün bir adam olmanın nasıl bir şey olduğunu bilmez.)<br><br>
+          Navy blue: Lacivert<br>
+          We call navy blue to a darker blue. (Daha koyu maviye lacivert deriz.)<br><br>
+          That navy blue jacket looks really good on you! (O lacivert ceket üzerinde gerçekten iyi görünüyor.)<br><br>
+          Purple: Mor<br>
+          When you mix blue and red, you get purple. (Mavi ve kırmızıyı karıştırdığında mor elde edersin.)<br><br>
+          Yellow goes well with purple, don’t you think so? (Sarı ve mor birbirlerine yakışıyor, sence de öyle değil
+          mi?)<br><br>
+          Brown: Kahverengi<br>
+          He has brown hair and blue eyes. He is so handsome. (Onun mavi gözleri ve kahverengi saçları var. O çok
+          yakışıklı.)<br><br>
+          You can use brown sugar in your recipes to make them healthier. (Tariflerinde, onları daha sağlıklı hale
+          getirmek adına esmer (kahverengi) şeker kullanabilirsin.)
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">6 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">3- İNGİLİZCE BİR ŞEYİN RENGİ NASIL SORULUR?<br><br>
+          Özellikle alışveriş yaparken kullanabileceğiniz, ‘… hangi renk?’ ya da ‘bunun başka rengi var mı, …. rengi var
+          mı?’ gibi soruları İngilizcede nasıl sorabileceğinize beraber bir göz atalım.<br><br>
+          What colour is it ? (O hangi renk?)<br><br>
+          What colour is the sun ? (Güneş hangi renktir?)<br><br>
+          What colour is the sky ? (Gökyüzü hangi renktir?)<br><br>
+          What colour are they ? (Onlar ne renk?)<br><br>
+          What colour are your pencils ? (Kalemlerin ne renk?)<br><br>
+          What colour is German flag ? (Alman bayrağı ne renktir?) gibi.<br><br>
+          Which color do you like? (Hangi rengi seversiniz?)<br><br>
+          Do you have different colors? (Farklı renkler var mı?)<br><br>
+          Does it have blue (yellow, red…) ? (Bunun mavisi, (sarısı, kırmızısı..) var mı?) gibi sorular da
+          yöneltebilirsiniz.
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">7 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">
+          Cevap olarak kullanabileceğiniz kalıplara bakalım:<br><br>
+          My mother’s new car is blue. (Annemin yeni arabası mavi.)<br><br>
+          The blue car is my mother’s new car. (Mavi araba, annemin yeni arabası.)<br><br>
+          Blue is the colour of my mother’s new car. (Mavi, annemin yeni arabasının rengi.)<br><br>
+          I do not like that color. (O renk hoşuma gitmedi.)<br><br>
+          I prefer blue (yellow , …). (Maviyi tercih ederim (sarı, …))<br><br>
+          We also have other colors. (Başka renklerimiz de var.)<br><br>
+          Renklerin tonları ile ilgili ayrıntı verebilmek adına önlerine dark yani koyu, light yani açık ya da bright
+          yani parlak sıfatlarını getirebiliriz.<br><br>
+          Dark red : Koyu kırmızı<br>
+          Light blue : Açık mavi<br>
+          Bright green : Parlak yeşil
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">8 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">
+          4- İNGİLİZCEDE KIRMIZIMSI, YEŞİLİMSİ NASIL DENİR?<br><br>
+          Bir rengi tam olarak nasıl ifade etmeniz gerektiğini kestiremiyorsanız, ona yakın bir renk ile ifade
+          edecekseniz, İngilizcedeki -ish- son eki size yardımcı olacaktır.<br><br>
+          Bu -ish- eki, kelimeye -ımsı, -imsi anlamını katacaktır.<br><br>
+          Örneklere bakalım:<br><br>
+          Reddish : Kırmızımsı<br>
+          Bluish : Mavimsi<br>
+          Pinkish : Pembemsi<br>
+          Yellowish: Sarımsı<br>
+          Greenish: Yeşilimsi<br><br>
+          Burada dikkat edilmesi gereken bir nokta var, turuncumsu derken, orange’a gelen ish eki ‘e’ harfini düşürür.
+          Ve kelime ‘orangish’ şeklinde kullanılır.<br><br> Kırmızımsı demek istediğimizde ise, red + ish araya bir d
+          harfi alır
+          ve kelime ‘reddish’ şeklinde kullanılır.
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">9 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <p class="p">
+          Konu ile ilgili cümle örnekleri:<br><br>
+          His face is a bit yellowish today, is he sick?<br>
+          Yüzü biraz sarımsı bugün, o hasta mı?<br><br>
+          The car is orangish.<br>
+          Araba turuncumsu.<br><br>
+          I like those pinkish skirts.<br>
+          O pembemsi etekleri severim.<br><br>
+          He has got brownish eyes.<br>
+          Kahverengimsi gözleri var.<br><br>
+          Your face looks reddish, is everything okay?<br>
+          Yüzün kırmızımsı görünüyor, her şey yolunda mı?<br><br>
+          I imagine yellowish windows for that house.<br>
+          O ev için sarımsı pencereler hayal ediyorum.
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">10 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">RENKLER</h3>
+        <img src="2.png" width="750" height="400">
+      </div>
+    </div>
+
+    <!--<a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>-->
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+  </div>
+  <br><br><br><br>
+  <div align="center">
+    <a href="anasayfa.html" class="div2"><i
+        class="fa-solid fa-angles-left fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="sayı_saat_kav.html" class="div2"><i class="fa-solid fa-check-double fa-3x"></i></a>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>

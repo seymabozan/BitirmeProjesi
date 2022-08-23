@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sayılar ve Saatler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="utf-8">
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+    .div2 {
+      color: slategrey;
+    }
+
+    .h3 {
+      font-family: 'Mukta', sans-serif;
+      font-size: 24px;
+    }
+
+    .p {
+      text-align: start;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">1 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">İNGİLİZCEDE SAYILAR<br><br>
+          Sayma sayıları (one, two, three, vs.) niceliği belirten sıfatlardır. Sıra sayıları ise (first, second, third,
+          vs.) dağılımı belirten sıfatlardır.<br><br>
+          1: one<br>
+          2: two<br>
+          3: three<br>
+          4: four<br>
+          5: five<br>
+          6: six<br>
+          7: seven<br>
+          8: eight<br>
+          9: nine<br>
+          10: ten<br>
+          11: eleven<br>
+          12: twelve<br>
+          13: thirteen<br>
+          14: fourteen<br>
+          15: fifteen<br>
+          16: sixteen<br>
+          17: seventeen<br>
+          18: eighteen<br>
+          19: nineteen<br>
+          20: twenty
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">2 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          PARA TUTARININ OKUNUŞU<br><br>
+          Para tutarını okumak için önce tüm sayı okunur sonra da para birimi eklenir.<br><br>Eğer ondalık sayı var ise
+          noktadan önceki ve sonraki kısımlar ayrı ayrı okunur, okuduğunuz para biriminde madeni paranın bir adı varsa
+          bu ad sona eklenir.<br><br>Bu kurallar sadece para birimleri için geçerlidir.<br><br>
+          25$: twenty-five dollars<br><br>
+          52€: fifty-two euros<br><br>
+          140₤: one hundred and forty pounds<br><br>
+          $43.25:: forty-three dollars and twenty-five cents (günlük konuşmada "forty-three twenty-five" şeklinde
+          kısaltılır)<br><br>
+          €12.66: twelve euros sixty-six<br><br>
+          ₤10.50 ten pounds fifty
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">3 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          YILLARIN OKUNUŞU<br><br>
+          İngilizce‘de yılların okunuşu diğer sayıların okunuşuna kıyasla daha karmaşıktır.<br><br>
+          Genel olarak, yıl 4 haneli bir sayı ise, önce ilk iki hane bir tam sayı olarak okunur, daha sonra diğer iki
+          hane başka bir tam sayı
+          olarak okunur.<br><br>Bu kurala uymayan bazı durumlar da vardır.<br><br>
+          Üç haneli yıllar üç haneli sayılar olarak ya da bir haneli sayı ve onu takip eden iki haneli sayı olarak
+          okunur.<br><br>İki haneli yıllar ise bir tam sayı olarak okunur.<br><br>Herhangi bir yılı okurken öncesinde
+          “the year”
+          ifadesini kullanarak anlamı daha belirgin hale getirebilirsiniz.<br><br>Bu vurgu genelde iki veya üç haneli
+          yıllar
+          okunurken yapılır.<br><br>0 (sıfır) yılından önceki yıllar BC eklenerek okunur. BC alfabedeki iki ayrı harf
+          gibi
+          telaffuz edilir.<br><br>
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">4 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          YILLARIN OKUNUŞU<br><br><br>
+          2014: twenty fourteen veya two thousand fourteen<br><br>
+          2008: two thousand eight<br><br>
+          2000: two thousand<br><br>
+          1944: nineteen forty-four<br><br>
+          1908: nineteen o eight<br><br>
+          1900: nineteen hundred<br><br>
+          1600: sixteen hundred<br><br>
+          866: eight hundred sixty-six veya eight sixty-six<br><br>
+          25: twenty-five<br><br>
+          3000 BC: three thousand BC<br><br>
+          3250 BC: thirty two fifty BC
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">5 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          0(SIFIR) NASIL OKUNUR?<br><br><br>
+          Farklı durumlarda kullanılan 0 sayısını okumanın birçok youlu vardır.<br><br>
+          Maalesef, kullanım şekli İngilizce konuşulan farklı ülkelerde değişiklik gösterir.<br><br>
+          Aşağıda yer alan okunuş şekilleri Amerikan İngilizcesi için geçerlidir.<br><br>
+          zero: Sayının kendisi, ondalık sayılarda, yüzdelerde, telefon numaralarında ve bazı kalıplaşmış ifadelerde
+          okunurken kullanılır<br><br>
+          o (the letter name): Yıl, adres, zaman ve ısı dereceleri okunurken kullanılır<br><br>
+          nil: Spor skorları bildirilirken kullanılır<br><br>
+          nought: ABD’de kullanılmaz
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">6 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          İNGİLİZCE SAAT KAVRAMLARI<br><br><br>
+          İngilizce saatler, İngilizce öğrenen herkesin bilmesi gereken konuların başında gelmektedir.<br><br>İngilizce
+          saatler
+          konusunu öğrenmek için hazırlanan bu içerik sayesinde, İngilizce saatler konu anlatımını
+          öğreneceksiniz.<br><br>
+          İngilizce saatlerde tam saatler, çeyrek ve yarım saat dilimleri farklı olarak kullanıldığı gibi; bunlara ek
+          olarak geçe ve kala ifadeleri de kullanılmaktadır.<br><br>
+          İngilizce saatleri ifade etmenin çeşitli kalıpları mevcuttur.<br><br>Bir saatin kaç geçtiği söylenmek
+          istenirse
+          ‘’past’’, kaç kaldığı söylenmek istediğinde ise ‘’to’’ kelimeleri cümlede kendilerine yer
+          bulmaktadır.<br><br>Eğer
+          İngilizce buçuklu saatler ve onların ifadesinden bahsedilecekse ‘’half past’’ kalıbı; çeyrek dakikalar için
+          ise ‘’quarter’’ kullanılmaktadır.<br><br>İngilizce tam saatler ise saatin kaç olduğunu belirtilen sayının
+          ardından
+          getirilen ‘’o’clock’’ tabiri ile ifade edilmektedir.
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">7 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <img src="3.png" width="570" height="400">
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">8 / 10</div>-->
+      <div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">
+          İNGİLİZCE SAAT SORMA CÜMLELERİ<br><br>
+          İngilizce saatlerle ilgili olarak bilinmesi gereken ilk konu İngilizce saat sorma cümleleridir.<br><br>‘’What
+          time is
+          it?’’ cümlesi en yaygın olarak kullanılan İngilizce saat sorma cümlesi olarak bilinse de; bunun dışında
+          ‘’What’s the time?’’ kalıbı da mevcuttur.<br><br>Bu iki soru cümlesi dışında, karşısındaki kişiye İngilizce
+          saat
+          sormak için farklı cümleler de kullanılmaktadır.<br><br>‘’Do you have the time?’’ ve ‘’What time do you
+          have?’’
+          bunlardan biridir.<br><br>
+          What time is it? (Saat kaç?)<br>
+          It is at eleven o’clock. (Saat on bir.)<br><br>
+          What’s the time? (Saat kaç?)<br>
+          It is ten to nine. (Saat dokuza on var.)<br><br>
+          What time is it? (Saat kaç?)<br>
+          It is quarter past one. (Saat biri çeyrek geçiyor.)
+        </p>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <!--<div class="numbertext">9 / 10</div>-->
+      <<div class="caption-text" align="center">
+        <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+        <p class="p">A.M. VE P.M. ARASINDAKİ FARKLAR<br><br>
+          Günlük hayatta İngilizce konuşurken, bir iş görüşmesine gidileceği sırada ya da bir mail üzerinden iletişime
+          geçildiğinde ağırlıklı olarak A.M ve P.M ifadeleri kullanılmaktadır.<br><br>Bu ifadelerin kullanılmasının en
+          temel
+          nedeni zamanlama konusunda bir hata yaşanmaması içindir.<br><br>İngilizce saatler A.M ve İngilizce saatler P.M
+          konuları her ne kadar karışık görünse de aslında öğrenmek için oldukça kolaydır.<br><br>
+          Öğleden önceki saat aralığından bahsedilirken A.M; öğleden sonrası için ise P.M kullanılmaktadır.<br><br>
+          00.01: 12.01 A.M.<br>
+          01.00: 01.00 A.M.<br>
+          02.00: 02.00 A.M.<br><br>
+          15.00: 03.00 P.M.<br>
+          16.00: 04.00 P.M.<br>
+          17.00: 05.00 P.M.
+        </p>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <!--<div class="numbertext">10 / 10</div>-->
+    <div class="caption-text" align="center">
+      <h3 class="h3">SAYI VE SAAT KAVRAMLARI</h3>
+      <p class="p">
+        ÖRNEK CÜMLELER<br><br><br>
+        It is 01.10 P.M: (Saat, öğlen saat 01.10.)<br><br>
+        It is 04.20 A.M: (Saat, sabaha karşı 4.20.)<br><br>
+        It is 06:40 A.M.: (Saat, sabaha karşı 6:40.)<br><br>
+        It is 09:25 P.M.: (Saat, sabaha karşı 9:25.)<br><br>
+        She can only stay up to 11.00 P.M.: (O, saat 23.00’a kadar kalabilir.)<br><br>
+        The concert will finish at 1:00 A.M.: (Konser, gece yarısı saat 1’de bitecek.)<br><br>
+        I get up at 7:00 A.M every morning.: (Her sabah saat 7’de kalkarım.)<br><br>
+        They will be there at 13.30 P.M.: (Öğlen 13.30’da orada olacaklar.)
+      </p>
+    </div>
+  </div>
+
+  <!--<a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>-->
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+  </div>
+  <br><br><br><br>
+  <div align="center">
+    <a href="anasayfa.html" class="div2"><i
+        class="fa-solid fa-angles-left fa-3x"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="aile_kav.html" class="div2"><i class="fa-solid fa-check-double fa-3x"></i></a>
+  </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>
